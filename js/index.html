@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WebSocket 设备控制中心</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        .container { max-width: 800px; margin: 20px auto; padding: 20px; }
+        .status-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+        #status { font-size: 16px; font-weight: bold; }
+        #status-light { font-size: 20px; }
+        .red { color: #ff4444; }
+        .green { color: #00C851; }
+        #status-btn { 
+            padding: 8px 16px; border: none; border-radius: 4px; 
+            cursor: pointer; background: #007bff; color: white;
+        }
+        .red-background { background: #ff4444 !important; }
+        .qrcode-box { margin: 20px 0; padding: 10px; border: 1px solid #eee; border-radius: 4px; }
+        #qrcode { text-align: center; padding: 20px; }
+        .strength-monitor { margin: 20px 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+        .strength-item { padding: 10px; border: 1px solid #eee; border-radius: 4px; }
+        .follow-switch { margin: 20px 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+        .follow-btn { padding: 8px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; }
+        .follow-btn.active { background: #00C851; color: white; border-color: #00C851; }
+        .manual-control { margin: 20px 0; }
+        .manual-item { margin: 10px 0; display: flex; align-items: center; gap: 10px; }
+        .manual-item input { width: 100px; padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+        #send-manual { 
+            padding: 8px 16px; border: none; border-radius: 4px; 
+            background: #007bff; color: white; cursor: pointer;
+        }
+        .toast { z-index: 9999 !important; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 连接状态区域 -->
+        <div class="status-bar">
+            <div id="status" class="red">未连接</div>
+            <div id="status-light" class="red">●</div>
+            <button id="status-btn">连接</button>
+        </div>
+
+        <!-- 二维码区域 -->
+        <div class="qrcode-box">
+            <div id="qrcode">请点击连接按钮获取绑定二维码</div>
+        </div>
+
+        <!-- 强度监控区域 -->
+        <div class="strength-monitor">
+            <div class="strength-item">
+                A通道当前强度：<span id="channel-a">0</span>
+            </div>
+            <div class="strength-item">
+                B通道当前强度：<span id="channel-b">0</span>
+            </div>
+            <div class="strength-item">
+                A通道软上限：<span id="soft-a">0</span>
+            </div>
+            <div class="strength-item">
+                B通道软上限：<span id="soft-b">0</span>
+            </div>
+        </div>
+
+        <!-- 跟随软上限开关 -->
+        <div class="follow-switch">
+            <button id="follow-a" class="follow-btn">A通道跟随软上限</button>
+            <button id="follow-b" class="follow-btn">B通道跟随软上限</button>
+        </div>
+
+        <!-- 手动设置强度 -->
+        <div class="manual-control">
+            <div class="manual-item">
+                A通道手动设置强度：<input type="number" id="manual-a" min="0" max="100" value="0">
+            </div>
+            <div class="manual-item">
+                B通道手动设置强度：<input type="number" id="manual-b" min="0" max="100" value="0">
+            </div>
+            <button id="send-manual">发送手动强度</button>
+        </div>
+    </div>
+
+    <script src="wsConnection.js"></script>
+</body>
+</html>

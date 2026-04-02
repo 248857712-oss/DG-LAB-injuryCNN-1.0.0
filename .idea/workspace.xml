@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f520bc5-827e-4d82-a13d-191890a19dee" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/injury-python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/CNN-game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/0/QQ_1774489004913.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/0/QQ_1774489128682.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/0/QQ_1774489175796.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/0/QQ_1774490072803.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/1/QQ_1774488960344.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/1/QQ_1774489098330.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/1/QQ_1774489151542.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/1/QQ_1774489853156.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/1/QQ_1774490112842.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/2/QQ_1774489736753.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/2/QQ_1774489817873.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/fps_injury_data/2/QQ_1774490045977.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/test_injury.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CNN/window-name-get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/identify-data/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/identify-data/identify-link.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3BSf8UbEYStaRIK4sof5zbQogbw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.1.executor": "Run",
+    "Python.dg_server.executor": "Run",
+    "Python.identify-link.executor": "Run",
+    "Python.laoding-socket.executor": "Run",
+    "Python.screen recording.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/neverleave/Desktop/injury-python/data/CNN"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\neverleave\Desktop\injury-python\data\CNN" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\neverleave\Desktop\injury-python\data\identify" />
+      <recent name="C:\Users\neverleave\Desktop\injury-python\js" />
+      <recent name="C:\Users\neverleave\Desktop\injury-python\js\node_modules" />
+      <recent name="C:\Users\neverleave\Desktop\injury-python\data\CNN" />
+      <recent name="C:\Users\neverleave\Desktop\injury-python\data\webset" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8f520bc5-827e-4d82-a13d-191890a19dee" name="更改" comment="" />
+      <created>1774487232360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774487232360</updated>
+    </task>
+    <servers />
+  </component>
+</project>
