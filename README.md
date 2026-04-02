@@ -26,7 +26,7 @@
 绑定二维码（请使用APP扫码）
 https://www.dungeon-lab.com/app-download.php#DGLAB-SOCKET#ws://xxx.xx.xx.xx:9999/xxxxxxxxxxxxx  
 或复制链接到APP：https://www.dungeon-lab.com/app-download.php#DGLAB-SOCKET#ws://xx.xx.xx.xx:9999/xxxxxxxxxxx  
-请**复制**该链接其中一条，并 直接用网页生成QR码与郊狼远程扫码
+请**复制**该链接其中一条，并 直接用网页生成QR码与郊狼远程扫码  
 5.等待一段时间后，该程序会通过识别屏幕调节强度，如果要调节屏幕大小，位置，请访问**identify-data**目录下**README.md**
 
 
