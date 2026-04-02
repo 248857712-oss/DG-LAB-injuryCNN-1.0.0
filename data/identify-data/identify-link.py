@@ -22,7 +22,7 @@ LOG_INTERVAL = 10  # 每10秒检测一次
 MODEL_PATH = "../CNN/fps_injury_cnn.pth"
 
 # Selenium 配置
-WEB_URL = "http://127.0.0.1:5500/index.html"
+WEB_URL = "自己的网站地址/index.html" #注意修改此处！！！
 DELAY_SECONDS = 20  # 打开网页后等待20秒
 
 CLASS_EN = ["No Injury", "Light Injury", "Severe Injury"]
