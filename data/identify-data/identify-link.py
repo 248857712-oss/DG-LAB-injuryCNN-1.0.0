@@ -14,10 +14,10 @@ from selenium.webdriver.chrome.service import Service
 
 # ===================== 配置 =====================
 GAME_WINDOW_TITLE = "这里改成自己的窗口名” #这里改成自己的窗口名，具体说明看README.md
-CAPTURE_OFFSET_X = 50
-CAPTURE_OFFSET_Y = 900
-CAPTURE_WIDTH = 300
-CAPTURE_HEIGHT = 100
+CAPTURE_OFFSET_X = 50   #调节x轴
+CAPTURE_OFFSET_Y = 900 #调节y轴
+CAPTURE_WIDTH = 300   #调节宽度
+CAPTURE_HEIGHT = 100 #调节高度
 LOG_INTERVAL = 10  # 每10秒检测一次
 MODEL_PATH = "../CNN/fps_injury_cnn.pth"
 
