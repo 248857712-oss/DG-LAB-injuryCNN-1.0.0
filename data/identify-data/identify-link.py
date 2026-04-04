@@ -13,7 +13,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
 # ===================== 配置 =====================
-GAME_WINDOW_TITLE = "1"
+GAME_WINDOW_TITLE = "这里改成自己的窗口名” #这里改成自己的窗口名，具体说明看README.md
 CAPTURE_OFFSET_X = 50
 CAPTURE_OFFSET_Y = 900
 CAPTURE_WIDTH = 300
