@@ -138,11 +138,11 @@ def main():
                 last_cls = cls  # 更新状态
 
                 if cls == 0:
-                    send_strength(0, 0)  # 恒定 0
+                    send_strength(0, 0)  # 恒定 0，在这里可以改无伤强度
                 elif cls == 1:
-                    send_strength(30, 30)  # 恒定 30
+                    send_strength(30, 30)  # 恒定 30，在这里可以改轻伤强度
                 elif cls == 2:
-                    send_strength(60, 60)  # 恒定 60
+                    send_strength(60, 60)  # 恒定 60，在这里可以改重伤强度
 
         cv2.imshow("Control", frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
