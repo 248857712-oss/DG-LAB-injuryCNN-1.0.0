@@ -126,7 +126,7 @@ def main():
         frame = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR)
         cls = predict(frame)
 
-        # 每10秒执行一次
+        # 每10秒执行一次检测
         if time.time() - last_log >= LOG_INTERVAL:
             last_log = time.time()
             print(f"[{CLASS_EN[cls]}] → 10秒自动检测")
