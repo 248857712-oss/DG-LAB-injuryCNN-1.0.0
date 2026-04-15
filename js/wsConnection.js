@@ -9,7 +9,7 @@ let softAStrength = 0; // A通道软上限缓存
 let softBStrength = 0; // B通道软上限缓存
 
 // 替换为你的电脑局域网IP（执行ipconfig/ifconfig查看）
-const LOCAL_IP = "172.20.10.4";
+const LOCAL_IP = "";
 
 // 反馈消息映射
 const feedBackMsg = {
